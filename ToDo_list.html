@@ -1,160 +1,180 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>
-      TODO's
-    </title>
-  </head>
-  <body>
-    <header>
-      <h1>
-        ToDoodle
-      </h1>
-      
-      <div>
-        Welcome Joe Doe!
-        <nav>
-          <a href="#">
-            Log out
-          </a>
-          |
-          <a href="#">
-            FAQ
-          </a>
-          |
-          <a href="#">
-            Support
-          </a>
-        </nav>
-      </div>
-    </header>
-    <br>
-    <main>
-      <form action="">
-        <input type="text" name="name" placeholder="Name" id="nameId">
-        <input type="text" name="description" placeholder="Description" id="descId">
-        <input type="date" name="date" min="2014-12-4" max="2200-12-31" id="dateId">
-        <input type="time" name="time" id="timeId">
-        <select id="priorityId">
-          <option value="3">
-            High
-          </option>
-          <option value="2">
-            Middle
-          </option>
-          <option value="1">
-            Low
-          </option>
-          <option value="0" selected="selected">
-            None
-          </option>
-        </select>
-        <br>
-        <input type="submit" value="New ToDo" id="newToDoId">
-      </form>
-      
+   <head>
+      <title>
+         TODO's
+      </title>
+   </head>
+   <body>
+      <header>
+         <h1>
+            ToDoodle
+         </h1>
+         <div id="right">
+            Welcome Joe Doe!
+            <nav>
+               <a href="#">
+               Log out
+               </a>
+               |
+               <a href="#">
+               FAQ
+               </a>
+               |
+               <a href="#">
+               Support
+               </a>
+            </nav>
+         </div>
+      </header>
       <br>
-      <table id="tableId">
-        <tr>
-          <th>
-            ToDo
-          </th>
-          <th>
-            Description
-          </th>
-          <th>
-            Due Date
-          </th>
-          <th>
-            Priority
-          </th>
-          <th>
-            Done
-          </th>
-        </tr>
-        <tr>
-          <td>
-            Eat
-          </td>
-          <td>
-            Eat food and drink drinks
-          </td>
-          <td>
-            21/11/2014 15:00:00
-          </td>
-          <td>
-            Middle
-          </td>
-          <td>
-            <form action="">
-              <input type="checkbox" value="Done">
-              
-            </form>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            Sleep
-          </td>
-          <td>
-            ZzzZ
-          </td>
-          <td>
-            21/11/2014 16:00:00
-          </td>
-          <td>
-            Low
-          </td>
-          <td>
-            <form action="">
-              <input type="checkbox" value="Done">
-              
-            </form>
-          </td>
-		</tr>
-  <tr>
-    <td>
-      Rave
-    </td>
-    <td>
-      Party!!!
-    </td>
-    <td>
-      22/11/2014 00:00:00
-    </td>
-    <td>
-      High
-    </td>
-    <td>
-      <form action="">
-		<input type="checkbox" value="Done">
-  
-      </form>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      Repeat
-    </td>
-    <td>
-      Always
-    </td>
-    <td>
-      -
-    </td>
-    <td>
-      None
-    </td>
-    <td>
-      <form action="">
-		<input type="checkbox" value="Done">
-  
-      </form>
-    </td>
-  </tr>
-  </table>
-  </main>
-  <footer>
-  </footer>
-  </body>
+      <main>
+         <form action="">
+            <input type="text" name="name" placeholder="Name" id="nameId">
+            <input type="text" name="description" placeholder="Description" id="descId">
+            <input type="date" name="date" min="2014-12-4" max="2200-12-31" id="dateId">
+            <input type="time" name="time" id="timeId">
+            <select id="priorityId">
+               <option value="3">
+                  High
+               </option>
+               <option value="2">
+                  Middle
+               </option>
+               <option value="1">
+                  Low
+               </option>
+               <option value="0" selected="selected">
+                  None
+               </option>
+            </select>
+            <br>
+            <input type="submit" value="New ToDo" id="newToDoId">
+         </form>
+         <br>
+         <table id="tableId">
+            <tr>
+               <th>
+                  ToDo
+               </th>
+               <th>
+                  Description
+               </th>
+               <th>
+                  Due Date
+               </th>
+               <th>
+                  Priority
+               </th>
+               <th>
+                  Done
+               </th>
+            </tr>
+            <tr>
+               <td>
+                  Eat
+               </td>
+               <td>
+                  Eat food and drink drinks
+               </td>
+               <td>
+                  21/11/2014 15:00:00
+               </td>
+               <td>
+                  Middle
+               </td>
+               <td>
+                  <form action="">
+                     <input type="checkbox" value="Done">
+                  </form>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  Sleep
+               </td>
+               <td>
+                  ZzzZ
+               </td>
+               <td>
+                  21/11/2014 16:00:00
+               </td>
+               <td>
+                  Low
+               </td>
+               <td>
+                  <form action="">
+                     <input type="checkbox" value="Done">
+                  </form>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  Rave
+               </td>
+               <td>
+                  Party!!!
+               </td>
+               <td>
+                  22/11/2014 00:00:00
+               </td>
+               <td>
+                  High
+               </td>
+               <td>
+                  <form action="">
+                     <input type="checkbox" value="Done">
+                  </form>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  Repeat
+               </td>
+               <td>
+                  Always
+               </td>
+               <td>
+                  -
+               </td>
+               <td>
+                  None
+               </td>
+               <td>
+                  <form action="">
+                     <input type="checkbox" value="Done">
+                  </form>
+               </td>
+            </tr>
+         </table>
+      </main>
+      <footer>
+         <table id="sublists">
+         <tr>
+            <td>
+               General
+            </td>
+         </tr>
+         <tr>
+            <td>
+               Work
+            </td>
+         </tr>
+         <tr>
+            <td>
+               Study
+            </td>
+         </tr>
+         <tr>
+            <td>
+               Books
+            </td>
+         </tr>
+         <tr>
+            <td>
+               New Project...
+            </td>
+         </tr>
+      </footer>
+   </body>
 </html>
