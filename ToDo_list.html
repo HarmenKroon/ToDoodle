@@ -31,11 +31,11 @@
     <br>
     <main>
       <form action="">
-        <input type="text" name="name" value="Name">
-        <input type="text" name="description" value="Description">
-        <input type="date" name="date" min="2014-11-20">
-        <input type="time" name="time">
-        <select>
+        <input type="text" name="name" placeholder="Name" id="nameId">
+        <input type="text" name="description" placeholder="Description" id="descId">
+        <input type="date" name="date" min="2014-12-4" max="2200-12-31" id="dateId">
+        <input type="time" name="time" id="timeId">
+        <select id="priorityId">
           <option value="3">
             High
           </option>
@@ -45,16 +45,16 @@
           <option value="1">
             Low
           </option>
-          <option value="0">
+          <option value="0" selected="selected">
             None
           </option>
         </select>
         <br>
-        <input type="submit" value="New ToDo">
+        <input type="submit" value="New ToDo" id="newToDoId">
       </form>
       
       <br>
-      <table>
+      <table id="tableId">
         <tr>
           <th>
             ToDo
